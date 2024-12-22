@@ -15,7 +15,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         while ($row = $result->fetch_assoc()) {
             $tname = $row["name"];
             $temail = $row["email"];
-            $tpass = $row["pass"];
 
             $_SESSION['name'] = $tname;
             $_SESSION['email'] = $temail;
@@ -28,7 +27,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo'invalid login';
     }
     if (isset($_SESSION['log'])) {
-        // echo $_SESSION['name'] . $_SESSION['email'] . $_SESSION['pass'];
 
         header('location: index.php');
         exit();
