@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Nova+Round&family=Nova+Square&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.container{
+  text-align: center;
+    margin: auto;
+}
+h1{
+    font-family: "Ewert", serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#2E3192 , #1BFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2{
+    font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
+    background: -webkit-linear-gradient(#009245 , #FCEE21);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}

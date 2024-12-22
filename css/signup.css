@@ -1,0 +1,115 @@
+    .ins {
+        color: green;
+        background-color: rgba(0, 128, 0, 0.225);
+        border: 1px solid green;
+        width: 90%;
+        z-index: 10;
+        width: 99.89vw;
+        text-align: center;
+        position: absolute;
+        top: 61px;
+        padding: 10px 0; 
+
+    }
+
+    .ine {
+        z-index: 10;
+        color: red;
+        background-color: rgba(128, 0, 0, 0.225);
+        border: 1px solid rgb(255, 0, 0);
+        width: 99.89vw;
+        text-align: center;
+        position: absolute;
+        top: 61px;
+        padding: 10px 0;
+    }
+
+    .p1 {
+        margin-top: 100px;
+    }
+
+    body {
+        background-color: #f8f9fa;
+        color: #212529;
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+
+    .con {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #007bff;
+
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 22px;
+        color: #495057;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    input {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #ced4da;
+        /* Light gray border */
+        border-radius: 5px;
+        background-color: #f8f9fa;
+        color: #495057;
+        /* Dark input text */
+        font-size: 14px;
+    }
+
+    input::placeholder {
+        color: #adb5bd;
+        /* Neutral placeholder text */
+    }
+
+    button {
+        width: 95%;
+        padding: 12px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        /* Blue button */
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+        /* Darker blue on hover */
+    }
+
+    /* Responsive Design */
+    @media (max-width: 480px) {
+        .con {
+            padding: 20px;
+        }
+
+        input,
+        button {
+            width: 100%;
+        }
+    }

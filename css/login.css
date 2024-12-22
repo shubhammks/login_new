@@ -1,0 +1,90 @@
+    /* Body and General */
+    body {
+
+
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+        /* margin-top: 80px; */
+        color: #212529;
+    }
+
+    /* Form Container */
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        width: 50%;
+        margin: 100px auto;
+        flex-direction: column;
+    }
+
+    /* Form Elements */
+    .form-group {
+        display: flex;
+        /* Flex layout for label and input alignment */
+        flex-direction: column;
+        /* Stack label and input vertically */
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        background-color: #f8f9fa;
+        color: #495057;
+    }
+
+    input::placeholder {
+        color: #6c757d;
+    }
+
+
+    /* Checkbox Group */
+    .form-group-check {
+        display: flex;
+        /* Flex layout for checkbox and label */
+        align-items: center;
+        /* Align checkbox and label vertically */
+        gap: 10px;
+        /* Add space between the checkbox and label */
+        margin-bottom: 15px;
+    }
+
+    input[type="checkbox"] {
+        margin: 0;
+    }
+
+    /* Button */
+    .btn {
+        display: flex;
+        /* Flex for button centering */
+        justify-content: center;
+        /* Center text horizontally */
+        align-items: center;
+        /* Center text vertically */
+        background-color: #007bff;
+        color: #ffffff;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
